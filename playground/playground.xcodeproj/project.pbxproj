@@ -14,6 +14,8 @@
 		F19BD21F1A3350FC005C89D3 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = F19BD21D1A3350FC005C89D3 /* LaunchScreen.xib */; };
 		F19BD22B1A3350FC005C89D3 /* playgroundTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F19BD22A1A3350FC005C89D3 /* playgroundTests.swift */; };
 		F19BD2351A3353D0005C89D3 /* APIController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F19BD2341A3353D0005C89D3 /* APIController.swift */; };
+		F19BD2371A336CE4005C89D3 /* Album.swift in Sources */ = {isa = PBXBuildFile; fileRef = F19BD2361A336CE4005C89D3 /* Album.swift */; };
+		F19BD2391A336F1D005C89D3 /* DetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F19BD2381A336F1D005C89D3 /* DetailsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +40,8 @@
 		F19BD2291A3350FC005C89D3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F19BD22A1A3350FC005C89D3 /* playgroundTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = playgroundTests.swift; sourceTree = "<group>"; };
 		F19BD2341A3353D0005C89D3 /* APIController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIController.swift; sourceTree = "<group>"; };
+		F19BD2361A336CE4005C89D3 /* Album.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Album.swift; sourceTree = "<group>"; };
+		F19BD2381A336F1D005C89D3 /* DetailsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +85,8 @@
 			children = (
 				F19BD2141A3350FC005C89D3 /* AppDelegate.swift */,
 				F19BD2161A3350FC005C89D3 /* SearchResultsViewController.swift */,
+				F19BD2381A336F1D005C89D3 /* DetailsViewController.swift */,
+				F19BD2361A336CE4005C89D3 /* Album.swift */,
 				F19BD2181A3350FC005C89D3 /* Main.storyboard */,
 				F19BD2341A3353D0005C89D3 /* APIController.swift */,
 				F19BD21B1A3350FC005C89D3 /* Images.xcassets */,
@@ -218,6 +224,8 @@
 				F19BD2171A3350FC005C89D3 /* SearchResultsViewController.swift in Sources */,
 				F19BD2151A3350FC005C89D3 /* AppDelegate.swift in Sources */,
 				F19BD2351A3353D0005C89D3 /* APIController.swift in Sources */,
+				F19BD2371A336CE4005C89D3 /* Album.swift in Sources */,
+				F19BD2391A336F1D005C89D3 /* DetailsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
